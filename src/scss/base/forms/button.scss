@@ -19,7 +19,11 @@
 			background-color: $bgColorSemi;
 		}
 	}
-	&--white {}
+	&--white {
+		background-color: #fff;
+		color: $bgColorLight;
+		padding: toRem(16) toRem(40);
+	}
 	&--min {}
 	&--icon {
 		span{
