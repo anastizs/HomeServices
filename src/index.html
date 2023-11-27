@@ -8,8 +8,8 @@
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
 		<main class="page">
-			<section class="hero">
-				<div class="hero__image-ibg">
+			<section data-watch class="hero">
+				<div class="hero__image-ibg hero__image-ibg--left">
 					<img src="@img/hero-left.jpg" alt="Image">
 				</div>
 				<div class="hero__body">
@@ -66,11 +66,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="hero__image-ibg">
+				<div class="hero__image-ibg hero__image-ibg--right">
 					<img src="@img/hero-right.jpg" alt="Image">
 				</div>
 			</section>
-			<section class="about">
+			<section data-watch="navigator" data-watch-threshold="0.3" class="about">
 				<div class="about__container">
 					<div class="about__body">
 						<div class="about__block-header block-header">
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="services">
+			<section data-watch="navigator" data-watch-threshold="0.3" class="services">
 				<div class="services__container">
 					<div class="services__block-header block-header block-header--center">
 						<h2 class="block-header__title">Our Services</h2>
@@ -182,7 +182,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="advantages">
+			<section data-watch class="advantages">
 				<div class="advantages__body">
 					<div class="advantages__container">
 						<div class="advantages__block-header block-header block-header--inline">
@@ -281,6 +281,179 @@
 						</div>
 					</div>
 				</div>
+			</section>
+			<section data-watch class="how">
+				<div class="how__container">
+					<div class="how__image">
+						<img src="@img/how.jpg" alt="Image">
+					</div>
+					<div class="how__content">
+						<div class="how__block-header block-header">
+							<h2 class="block-header__title">How HomePro works?</h2>
+						</div>
+						<ol class="how__list list-how">
+							<li class="list-how__item">
+								<span class="list-how__title">Call us anytime 24/7</span>
+								<span class="list-how__text text">You can contact us directly, we will quickly put you in touch
+									with
+									our home care professionals who are ready anytime</span>
+							</li>
+							<li class="list-how__item">
+								<span class="list-how__title">Schedule Service</span>
+								<span class="list-how__text text">After connecting your call, our home care experts will answer
+									your
+									questions and provide flexible appointment times</span>
+							</li>
+							<li class="list-how__item">
+								<span class="list-how__title">Your request is complated</span>
+								<span class="list-how__text text">Once your technician arrives, he will diagnose the problem and
+									provide an estimate. If you decide to continue, the technician will get to work</span>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__block-header block-header block-header--center">
+						<h2 class="block-header__title">Here our original reviews from trusted platform</h2>
+					</div>
+					<div class="reviews__body">
+						<div class="reviews__slider swiper">
+							<div class="reviews__wrapper swiper-wrapper">
+								<div class="reviews__slide slide-reviews swiper-slide">
+									<div class="slide-reviews__logo">
+										<img src="@img/reviews/logo.jpg" alt="Logo">
+									</div>
+									<div class="slide-reviews__text text">
+										<p>Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team
+											turned
+											my leaky roof into a stockade. With their craftsmanship and the best materials, my
+											house
+											is now ready to weather any storm.</p>
+									</div>
+									<div class="slide-reviews__user">
+										<div class="slide-reviews__avatar">
+											<img src="@img/reviews/avatar.jpg" alt="Avatar">
+										</div>
+										<div class="slide-reviews__body">
+											<div class="slide-reviews__name">Kende Attila</div>
+											<div class="slide-reviews__rating rating">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">4</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide slide-reviews swiper-slide">
+									<div class="slide-reviews__logo">
+										<img src="@img/reviews/logo.jpg" alt="Logo">
+									</div>
+									<div class="slide-reviews__text text">
+										<p>Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team
+											turned
+											my leaky roof into a stockade. With their craftsmanship and the best materials, my
+											house
+											is now ready to weather any storm.</p>
+									</div>
+									<div class="slide-reviews__user">
+										<div class="slide-reviews__avatar">
+											<img src="@img/reviews/avatar.jpg" alt="Avatar">
+										</div>
+										<div class="slide-reviews__body">
+											<div class="slide-reviews__name">Kende Attila</div>
+											<div class="slide-reviews__rating rating">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">5</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide slide-reviews swiper-slide">
+									<div class="slide-reviews__logo">
+										<img src="@img/reviews/logo.jpg" alt="Logo">
+									</div>
+									<div class="slide-reviews__text text">
+										<p>Roof repairs can be a real headache, but HomePro makes it easy! Their roofing team
+											turned
+											my leaky roof into a stockade. With their craftsmanship and the best materials, my
+											house
+											is now ready to weather any storm.</p>
+									</div>
+									<div class="slide-reviews__user">
+										<div class="slide-reviews__avatar">
+											<img src="@img/reviews/avatar.jpg" alt="Avatar">
+										</div>
+										<div class="slide-reviews__body">
+											<div class="slide-reviews__name">Kende Attila</div>
+											<div class="slide-reviews__rating rating">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">3.6</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="reviews__arrow--left" type="button"></button>
+						<button class="reviews__arrow--right" type="button"></button>
+						<div class="reviews__bullets"></div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.3" class="blog">
+				<div class="blog__container">
+					<div class="blog__body">
+						<div class="blog__block-header block-header block-header--center">
+							<h2 class="block-header__title">Explore Insights in Our Blog</h2>
+							<div class="block-header__text">
+								<p>Find lots of insights and information on our blog. Explore, learn, and get inspired today.
+								</p>
+							</div>
+						</div>
+						<div class="blog__items">
+							<article class="blog__item item-blog">
+								<a href="#" class="item-blog__image "></a>
+								<div class="item-blog__date"></div>
+								<h4 class="item-blog__title">
+									<a href="#" class="item-blog__link-title"></a>
+								</h4>
+								<div class="item-blog__text">
+									<p></p>
+								</div>
+								<div class="item-blog__tags">
+									<a href="#" class="item-blog__tag"></a>
+								</div>
+							</article>
+						</div>
+					</div>
 			</section>
 		</main>
 	</div>
