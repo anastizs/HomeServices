@@ -1,9 +1,9 @@
 {
-	"name": "HomeServices",
+	"name": "fls-start",
 	"version": "3.0.0",
 	"description": "HomeServices",
-	"author": "Anastasiia Hvardiian",
-	"private": false,
+	"author": "FLS",
+	"private": true,
 	"license": "",
 	"type": "module",
 	"scripts": {
