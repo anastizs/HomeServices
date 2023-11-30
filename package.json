@@ -1,9 +1,9 @@
 {
-	"name": "fls-start",
+	"name": "HomeServices",
 	"version": "3.0.0",
-	"description": "Start template with Gulp and Webpack",
-	"author": "FLS",
-	"private": true,
+	"description": "HomeServices",
+	"author": "Anastasiia Hvardiian",
+	"private": false,
 	"license": "",
 	"type": "module",
 	"scripts": {
