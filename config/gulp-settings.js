@@ -39,8 +39,8 @@ export const path = {
 
 // Налаштування FTP з'єднання
 export const configFTP = {
-  host: "https://adm.tools/hosting", // Адреса FTP сервера
-  user: "?account_id=522317", // Ім'я користувача
+  host: "ftp://anastizs_ftp@anastizs.ftp.tools:21", // Адреса FTP сервера
+  user: "anastizs_ftp", // Ім'я користувача
   password: "StopWar2402", // Пароль
   parallel: 5, // Кількість одночасних потоків
 };
